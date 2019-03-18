@@ -1,4 +1,8 @@
-.App {
+#root {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.MainHeader {
     text-align: center;
     background-color: black;
     height: 40px;
@@ -6,42 +10,34 @@
 
 .Header {
     color: white;
-    font-size: 0.80rem;
-    font-weight: 700;
+    font-size: 0.90rem;
+    font-weight: 500;
 }
 
 .Header a, a:hover, a:active, a:visited {
     color: white;
 }
 
-ul.Header  {
+ul.Header {
     line-height: 40px;
 }
 
-.Header li {
-    display: inline;
+.Header li, .Footer li {
+    display: inline-block;
 }
 
-.App-header {
-    background-color: #282c34;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
+.MainContainer {
+    height: 100px;
+}
+
+.MainFooter {
+    text-align: center;
+    background-color: black;
     color: white;
 }
 
-.App-link {
-    color: #61dafb;
+.Footer {
+    line-height: 15px;
+    padding-left: 0;
 }
 
-@keyframes App-logo-spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
-}
